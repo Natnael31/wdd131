@@ -46,13 +46,14 @@ main{
     display: grid;
     max-width: 920px;
     margin: 0 auto;
-    background-color: azure;
+    
 }
 
 .card{
     border: 0.9px solid rgba(51, 49, 49, 0.418);
     border-radius: 10px;
     margin: 15px 3px;
+    background-color: azure;
 }
 
 .card p{
