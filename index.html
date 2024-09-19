@@ -3,10 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>wdd131|Natnael Gashaw</title>
-    <link rel="stylesheet" href="style.css">
+    <title>WDD 131 - Dynamic Web Fundamentals - Natnael Gashaw Endashaw</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals - Natnael Gashaw, Build Home Page using HTML, CSS, and JavaScript">
+    <meta name="author" content="Natnael Gashaw">
+    <link rel="stylesheet" href="styles/base.css">
+    <script defer src="scripts/gatedates.js"></script>
 </head>
 <body>
-    <h1>Welcome to wdd131 - Natnael Gashaw</h1>
+    <header>
+        <h1>WDD 131: Dynamic Web Fundamentals - <span>Natnael Gashaw</span></h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/natnael-gashaw/" target="_blank">LinkedIn</a>
+            <a href="https://byui.instructure.com/" target="_blank">I-Learn</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7" target="_blank">Scripture</a>
+            <a href="#" target="_blank">Final Project</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card about">
+            <h2>About Me</h2>
+            <div class="profile">
+                
+                <img src="images/pic.jpg" alt="profile pic">
+                <p>My name is Natnael Gashaw, and I was born in Addis Ababa, Ethiopia. I am single. I visit my family regularly, and I have the best relationship with them. I work as a freelancer, and I also work other jobs that do not relate to my field of study. I love watching football, exploring new ideas, and helping others in anyway I can. </p>
+            </div>
+            <h3>Addis Ababa, Ethiopia</h3>
+            <div class="location">
+                <img src="images/flag.jpg" alt="flag">
+                <p>Ethiopia is a tropical/temprate country found in the horn of Africa.
+                    Ethiopia is known as the origion of coffee. It has many cultures, and it
+                    is home of ancient civilizations like, the SABA and AXUM dynasties. The capital city, Addis Ababa is the home of the headquarters of the AU(African Union). The city is the biggest in the country with an estimated population of 6 million.</p>
+            </div>
+        </section>
+        <section class="card web">
+            <h2>Web Dev Resources</h2>
+            <ul>
+                    <li><a href="https://www.w3schools.com/" target="_blank">W3 Schools</a></li>
+                    <li><a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a></li>
+                    <li><a href="https://stackoverflow.com/" target="_blank">stack overflow</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/" target="_blank">GeeksforGeeks</a></li>
+                    <li><a href="https://developers.google.com/" target="_blank">Google for Developers</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p><span id="currentyear"></span> Natnael Gashaw, Ethiopia</p>
+        <p id="lastModified"></p>
+    </footer>
+    
+    
 </body>
 </html>
