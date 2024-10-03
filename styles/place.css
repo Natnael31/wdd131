@@ -35,8 +35,13 @@ main {
     height: auto;
 }
 
+h2 {
+    display: grid;
+}
+
 h2 img {
     width: 120px;
+    margin-bottom: -10px;
 }
 
 .sec {
@@ -108,7 +113,7 @@ footer {
         display: none;
     }
 
-    h2 div::after {
+    h2 span::after {
         content: "☀";
         color: yellow;
     }
