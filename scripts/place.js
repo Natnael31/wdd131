@@ -19,7 +19,7 @@ function Windchill() {
 }
 
 if (temperature <= 10 && windSpeed > 4.8) {
-    windChillFactor.textContent = Windchill().toFixed(1);
+    windChillFactor.textContent = Windchill().toFixed(1) + " °C";
 } else {
     windChillFactor.textContent = "N/A";
 }
