@@ -1,9 +1,15 @@
 body{
     font-family: "Roboto Slab", sans-serif;
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 h1{
+    background-color: #031163d0;
+    color: white;
+    font-size: 40px;
     text-align: center;
+    padding: 40px;
 }
 
 main{
@@ -27,4 +33,12 @@ img{
     100% {
         opacity: 1;
     }
+}
+
+footer{
+    background-color: #031163d0;
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
 }
