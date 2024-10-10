@@ -43,7 +43,7 @@ const temples = [
         dedicated: "2015, June, 7",
         area: 96630,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x250/payson-utah-temple-exterior-1416671-wallpaper.jpg"
     },
     {
         templeName: "Yigo Guam",
@@ -55,7 +55,7 @@ const temples = [
     },
     {
         templeName: "Washington D.C.",
-        location: "Kensington, Maryland, United States",
+        location: "Kensington, Maryland, USA",
         dedicated: "1974, November, 19",
         area: 156558,
         imageUrl:
@@ -79,26 +79,26 @@ const temples = [
     },
     // Add more temple objects here...
     {
-        templeName: "Regina Saskatchewan Temple",
-        location: "Wascana, North Regina, Canada",
-        dedicated: "1999, November, 14",
-        area: 990,
+        templeName: "Laie Hawaii Temple",
+        location: "Laie Hawaii, USA",
+        dedicated: "1919, November, 27", 
+        area: 42100,
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/regina-saskatchewan/400x250/regina-saskatchewan-temple-lds-1027644-wallpaper.jpg"
+            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/laie-hawaii/400x250/laie-temple-772761-wallpaper.jpg"
     },
     {
         templeName: "St-George-Temple",
         location: "Utah, USA",
-        dedicated: "1877, April, 6", 
-        area: 13375.2,
+        dedicated: "1877, April, 6",
+        area: 143969,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/st-george-utah/400x250/st-george-temple-758796-wallpaper.jpg"
     },
     {
         templeName: "Boise-Idaho",
         location: "Idaho, USA",
-        dedicated: "1984, May , 25", 
-        area: 3332.2,
+        dedicated: "1984, May , 25",
+        area: 35868,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/boise-idaho/2018/400x250/1-Boise-Idaho-Temple-1968984.jpg"
     },
@@ -149,7 +149,7 @@ old.addEventListener('click', () => {
     });
     temples.forEach((temple) => {
         let date = temple.dedicated.slice(0, 4);
-        if (date < 2000) {
+        if (date < 1900) {
             let newCard = document.createElement("div");
             newCard.innerHTML = `<h2>${temple.templeName}</h2>
                                         <p><span>Location:</span> ${temple.location}</p>
@@ -171,7 +171,7 @@ newer.addEventListener('click', () => {
     });
     temples.forEach((temple) => {
         let date = temple.dedicated.slice(0, 4);
-        if (date >= 2000) {
+        if (date > 2000) {
             let newCard = document.createElement("div");
             newCard.innerHTML = `<h2>${temple.templeName}</h2>
                                         <p><span>Location:</span> ${temple.location}</p>
@@ -191,7 +191,7 @@ large.addEventListener('click', () => {
     });
     temples.forEach((temple) => {
         let area = temple.area;
-        if (area > 50000) {
+        if (area > 90000) {
             let newCard = document.createElement("div");
             newCard.innerHTML = `<h2>${temple.templeName}</h2>
                                         <p><span>Location:</span> ${temple.location}</p>
@@ -211,7 +211,7 @@ small.addEventListener('click', () => {
     });
     temples.forEach((temple) => {
         let area = temple.area;
-        if (area <= 50000) {
+        if (area < 10000) {
             let newCard = document.createElement("div");
             newCard.innerHTML = `<h2>${temple.templeName}</h2>
                                         <p><span>Location:</span> ${temple.location}</p>
