@@ -81,7 +81,7 @@ const temples = [
     {
         templeName: "Laie Hawaii Temple",
         location: "Laie Hawaii, USA",
-        dedicated: "1919, November, 27", 
+        dedicated: "1919, November, 27",
         area: 42100,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/laie-hawaii/400x250/laie-temple-772761-wallpaper.jpg"
@@ -118,6 +118,7 @@ temples.forEach((temple) => {
     newCard.innerHTML = `<h2>${temple.templeName}</h2>
                             <p><span>Location:</span> ${temple.location}</p>
                             <p><span>Dedicated:</span> ${temple.dedicated}</p>
+                            <p><span>Size:</span> ${temple.area}sq ft</p>
                             <img src="${temple.imageUrl}" width="200" loading="lazy" alt="${temple.templeName}">`
     newCard.classList.add("temp")
     mySec.append(newCard);
@@ -135,6 +136,7 @@ home.addEventListener('click', () => {
         newCard.innerHTML = `<h2>${temple.templeName}</h2>
                             <p> <span>Location:</span> ${temple.location}</p>
                             <p><span>Dedicated:</span> ${temple.dedicated}</p>
+                            <p><span>Size:</span> ${temple.area}sq ft</p>
                             <img src="${temple.imageUrl}" width="200" loading="lazy" alt="${temple.templeName}">`
         newCard.classList.add("temp");
         mySec.append(newCard);
@@ -154,6 +156,7 @@ old.addEventListener('click', () => {
             newCard.innerHTML = `<h2>${temple.templeName}</h2>
                                         <p><span>Location:</span> ${temple.location}</p>
                                         <p><span>Dedicated:</span> ${temple.dedicated}</p>
+                                        <p><span>Size:</span> ${temple.area}sq ft</p>
                                         <img src="${temple.imageUrl}" width="200" loading="lazy" alt="${temple.templeName}">`
             newCard.classList.add("temp");
             mySec.append(newCard);
@@ -176,6 +179,7 @@ newer.addEventListener('click', () => {
             newCard.innerHTML = `<h2>${temple.templeName}</h2>
                                         <p><span>Location:</span> ${temple.location}</p>
                                         <p><span>Dedicated:</span> ${temple.dedicated}</p>
+                                        <p><span>Size:</span> ${temple.area}sq ft</p>
                                         <img src="${temple.imageUrl}" width="200" loading="lazy" alt="${temple.templeName}">`
             newCard.classList.add("temp");
             mySec.append(newCard);
@@ -196,6 +200,7 @@ large.addEventListener('click', () => {
             newCard.innerHTML = `<h2>${temple.templeName}</h2>
                                         <p><span>Location:</span> ${temple.location}</p>
                                         <p><span>Dedicated:</span> ${temple.dedicated}</p>
+                                        <p><span>Size:</span> ${temple.area}sq ft</p>
                                         <img src="${temple.imageUrl}" width="200" loading="lazy" alt="${temple.templeName}">`
             newCard.classList.add("temp");
             mySec.append(newCard);
@@ -216,6 +221,7 @@ small.addEventListener('click', () => {
             newCard.innerHTML = `<h2>${temple.templeName}</h2>
                                         <p><span>Location:</span> ${temple.location}</p>
                                         <p><span>Dedicated:</span> ${temple.dedicated}</p>
+                                        <p><span>Size:</span> ${temple.area}sq ft</p>
                                         <img src="${temple.imageUrl}" width="200" loading="lazy" alt="${temple.templeName}">`
             newCard.classList.add("temp");
             mySec.append(newCard);
