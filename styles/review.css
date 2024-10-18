@@ -2,6 +2,7 @@ body {
     width: 400px;
     margin: 0 auto;
     font-family: "Roboto Slab", sans-serif;
+    
 }
 
 header {
@@ -14,7 +15,7 @@ header {
 
 main {
     width: 100%;
-    margin: 250px 0;
+    margin: 280px 0;
 }
 
 
