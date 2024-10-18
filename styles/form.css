@@ -62,7 +62,7 @@ input[type="radio"]:hover {
     cursor: pointer;
 }
 
-#productName {
+#product-name {
     width: 100%;
     height: 40px;
 }
@@ -81,7 +81,7 @@ input[type="radio"]:hover {
     display: inline-block
 }
 
-#writtenReview {
+#written-review {
     width: 100%;
     height: 100px;
 }

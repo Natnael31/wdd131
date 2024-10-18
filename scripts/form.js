@@ -38,7 +38,7 @@ const products = [
     }
 ];
 
-const productName = document.getElementById("productName");
+const productName = document.getElementById("product-name");
 const productRating = document.getElementById("ratings");
 
 products.forEach((product) => {
