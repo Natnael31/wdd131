@@ -1,0 +1,25 @@
+body {
+    width: 400px;
+    margin: 0 auto;
+    font-family: "Roboto Slab", sans-serif;
+}
+
+header {
+    background-color: #32021F;
+    color: white;
+    padding: 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    margin: 200px 0;
+}
+
+footer {
+    background-color: #32021F;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}

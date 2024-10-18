@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 - Dynamic Web Fundamentals - Natnael Gashaw Endashaw</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals - Natnael Gashaw, Create a form in HTML and dynamically modify it using JS">
+    <meta name="author" content="Natnael Gashaw">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form action="review.html" method="get">
+            <div>
+                <label for="product-name">Product Name:</label>
+                <select name="productName" id="productName" required>
+                    <option value="" disabled selected>Select a Product ...</option>
+                </select>
+            </div>
+            <div>
+                <label>Overall Rating:</label>
+                <div id="ratings">
+                    <div>
+                        <label for="rating-1">☆</label>
+                        <input type="radio" id="r1" name="rating" required>
+                    </div>
+                    <div>
+                        <label for="rating-2">☆☆</label>
+                        <input type="radio" id="r2" name="rating" required>
+                    </div>
+                    <div>
+                        <label for="rating-3">☆☆☆</label>
+                        <input type="radio" id="r3" name="rating" required>
+                    </div>
+                    <div>
+                        <label for="rating-4">☆☆☆☆</label>
+                        <input type="radio" id="r4" name="rating" required>
+                    </div>
+                    <div>
+                        <label for="rating-5">☆☆☆☆☆</label>
+                        <input type="radio" id="r5" name="rating" required>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <label for="installation-date">Date of Installation:</label>
+                <input type="date" id="installationDate" name="installation-date" required>
+            </div>
+
+            <div id="checkboxes">
+                <label>Which features did you find useful in the product? <br> <em>(Check all that apply)</em> </label>
+                <input type="checkbox" id="durability" name="features" value="1">
+                <label for="feature1">Durability</label><br>
+                <input type="checkbox" id="easeOfUse" name="features" value="2">
+                <label for="feature2">Ease of Use</label><br>
+                <input type="checkbox" id="performance" name="features" value="3">
+                <label for="feature3">Performance</label><br>
+                <input type="checkbox" id="design" name="features" value="4">
+                <label for="feature4">Design</label>
+            </div>
+
+            <div>
+                <label for="written-review">Written Review <span id="blue">(optional)</span></label>
+                <textarea id="writtenReview" name="written-review"></textarea>
+            </div>
+
+            <div>
+                <label for="user-name">Your Name <span id="blue">(optional)</span> </label>
+                <input type="text" id="userName" name="user-name">
+            </div>
+
+            <input type="submit" value="Post Review">
+        </form>
+    </main>
+
+    <footer>
+        <p><span id="currentyear"></span> Natnael Gashaw, Ethiopia</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
