@@ -1,0 +1,257 @@
+/* Mobile view css code */
+:root {
+    --primary-color :#544B3D;    
+    --body-font: 'Roboto Slab', sans-serif; 
+    --paragraph-font: 'Roboto Slab', sans-serif; 
+
+    --nav-background-color:#32021F;   
+    --nav-link-color:#CEBACF;   
+    --nav-hover-link-color: #544B3D;  
+    --nav-hover-background-color: #F4EBBE; 
+}
+
+body {
+    font-family: var(--body-font);
+    max-width: 980px;
+    margin: 0 auto;
+}
+header a{
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color:  #32021F;
+    padding: 20px 40px;
+}
+
+nav:hover {
+    cursor: pointer;
+}
+
+header ul li{
+    list-style: none;
+}
+
+nav a{
+    font-size: 1.3rem;
+}
+
+nav a:hover{
+    color: var(--nav-hover-link-color);
+}
+
+nav ul li:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+    border-radius: 5px;
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
+nav ul li {
+    display: none;
+    padding: 5px;
+}
+
+nav::before {
+    content: "☰";
+    color: var(--nav-link-color);
+    font-size: 40px;
+}
+
+nav.show::before {
+    content: "❌";
+    color: var(--nav-link-color);
+    padding-left: 50px;
+    font-size: 30px;
+}
+
+.show li {
+    display: block;
+}
+
+img{
+    width: 100%;
+}
+
+
+main{
+margin-top: 3px;
+}
+
+#home{
+    position: relative;
+}
+
+#home-paragraph {
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    color: black;
+    padding: 20px;
+}
+#home h2{
+    color: var(--nav-background-color);
+}
+
+#home button{
+    width: 200px;
+    padding: 10px 20px;
+    background-color: #22211f;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: var(--body-font);
+  
+}
+
+#home button:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+    background-color: var(--nav-hover-background-color);
+    color: var(--primary-color);
+}
+
+footer{
+    background-color: var(--nav-background-color);
+    text-align: center;
+    color: var(--nav-link-color);
+    padding: 10px;
+    font-size: 20px;
+}
+
+#contents{
+    text-align: center;
+    margin: 0 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    color: #544B3D;
+    
+}
+#contents h2{
+    color: #22211f;
+}
+
+#register_content{
+    margin: 5px 10px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    color: #22211f;
+}
+
+#rating_content{
+    margin: 5px 10px;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    color: #22211f;
+}
+
+form {
+   border-bottom: 1px solid #ccc;
+}
+
+label {
+    display: block;
+    padding: 10px 0;
+    font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"], input[type="number"], textarea {
+    width: 60%;
+    padding: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"] {
+    margin-left: 20px;
+}
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #22211f;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: var(--body-font);
+    display: block;
+    width: 60%;
+    margin-bottom: 20px;
+  
+}
+
+
+form button:hover{
+    transform: scale(1.1);
+    transition: all 0.2s ease;
+    background-color: rgb(1, 1, 54);
+    color: var(--nav-hover-background-color);
+}
+
+/* Desktop view css code */
+
+@media screen and (min-width: 800px) {
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 10px;
+    }
+
+    nav::before{
+        display: none;
+    }
+
+    nav ul li{
+        display: block;
+        padding: 5px 20px;
+        
+    }
+    #contents section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        
+    }
+    #contents section div{
+        padding: 10px;
+    }
+
+    #register_content{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    form{
+        border-bottom: none;
+    }
+   
+}

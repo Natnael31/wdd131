@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Ethiopia|Register</title>
+    <meta name="description"
+        content="WDD 131 - Dynamic Web Fundamentals - Natnael Gashaw, a registration page that will record data of customers and their prefered tourist destinations found in Ethiopia.">
+    <meta name="author" content="Natnael Gashaw">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/tourethiopia.css">
+    <script defer src="scripts/register.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1><a href="tourethiopia.html">Tour Ethiopia</a></h1>
+        <nav>
+            <ul id="navigation">
+                <li id="landmarks"><a href="landmarks.html">Landmarks</a></li>
+                <li id="lakes"><a href="lakes.html">Lakes</a></li>
+                <li id="rivers"><a href="rivers.html">Rivers</a></li>
+                <li id="register"><a href="register.html">Register</a></li>
+                <li id="ratings"><a href="ratings.html">Ratings</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="register_content">
+        <form id="submit_registration">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="phone_no">phone_no:</label>
+            <input type="number" name="phone_no" id="phone_no" required>
+
+            <label>Select prefered tourist site:</label>
+            <input type="radio" name="choice" id="choice_1" value="Landmarks">Landmarks <br>
+            <input type="radio" name="choice" id="choice_2" value="Lakes">Lakes <br>
+            <input type="radio" name="choice" id="choice_3" value="Rivers">Rivers<br>
+
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="5"></textarea>
+
+            <label for="submit">Please fill out the form and click the button below</label>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+        <div>
+            <h2>Company Information</h2>
+            <h3>Address</h3>
+            <div>
+              <div>
+                <p><b>Loaction:</b> Ethiopia, Addis Ababa, Gulele K/K</p><br>
+                <p><b>Phone number:</b> +251931677672</p><br>
+                <p><b>Email:</b> <a target="new" href="https://www.gmail.com">natystd21@gmail.com</a></p><br>
+              </div>
+              <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31520.025615047987!2d38.72333289657468!3d9.063471204154022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b8f3289bb508f%3A0x447717f14dd9c0c3!2sGulele%2C%20Addis%20Ababa%2C%20Ethiopia!5e0!3m2!1sen!2sjp!4v1729522066568!5m2!1sen!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <footer>
+        <p><span id="currentyear"></span> Natnael Gashaw, Ethiopia</p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
