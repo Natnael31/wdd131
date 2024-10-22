@@ -99,7 +99,15 @@ main {
     color: var(--nav-background-color);
 }
 
+#home label{
+    margin-top: 5px;
+    
+}
+
 #register {
+    margin-top: -15px;
+    display: inline-block;
+    width: 200px;
     padding: 10px 20px;
     background-color: #22211f;
     color: #fff;
