@@ -136,7 +136,6 @@ footer {
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     color: #544B3D;
-
 }
 
 #contents h2 {
@@ -182,6 +181,8 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 16px;
+    font-family: var(--body-font);
+    color: #544B3D;
 }
 
 input[type="radio"] {
@@ -249,6 +250,9 @@ form button:hover {
         grid-template-columns: 1fr 1fr 1fr;
 
     }
+    #contents img{
+        height: 200px;
+    }
 
     #contents section div {
         padding: 10px;
@@ -263,4 +267,5 @@ form button:hover {
         border-bottom: none;
     }
 
+    
 }

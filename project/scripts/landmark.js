@@ -22,40 +22,40 @@ ham.addEventListener('click', ()=>{
 // Array of landmarks
 const landmarks = [
     {
-        landmarkName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        landmarkName: "Axum Obelisk",
+        location: "Axum, Tigray",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/640px-Aksum_obelisk.webp"
     },
     {
-        landmarkName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        landmarkName: "Lalibela Church",
+        location: "Lalibela, Wello",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/640px-Bet_Giyorgis_church_Lalibela_01_11zon.webp"
     },
     {
-        landmarkName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        landmarkName: "St. Mary of Zion Church ",
+        location: "Axum, Tigray",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/Axum_Tsion.webp"
     },
     {
-        landmarkName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        landmarkName: "Fasilides Palace",
+        location: "Gondar, Amhara",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/640px-Fasilides_Palace_01.webp"
     },
     {
-        landmarkName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        landmarkName: "Erta Ale",
+        location: "Danakil Depression, Afar",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/640px-Erta_Ale.webp"
     },
     {
-        landmarkName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        landmarkName: "Simien Mountains",
+        location: "Gondar, Amhara",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/640px-GeladaTroopSimienMountains.webp"
     }
 ];
 
@@ -68,7 +68,7 @@ landmarks.forEach((landmark) => {
     let newCard = document.createElement("div");
     newCard.innerHTML = `<h2>${landmark.landmarkName}</h2>
                             <p><span>Location:</span> ${landmark.location}</p>
-                            <img src="${landmark.imageUrl}" width="200" loading="lazy" alt="${landmark.landmarkName}">`
+                            <img src="${landmark.imageUrl}"  loading="lazy" alt="${landmark.landmarkName}">`
     land.append(newCard);
 });
 }

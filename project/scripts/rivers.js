@@ -22,40 +22,40 @@ ham.addEventListener('click', ()=>{
 // Array of rivers
 const rivers = [
     {
-        riverName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        riverName: "Blue Nile River",
+        location: "Bahir_Dar, Ethiopia",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/640px-Blue_Nile_Falls-03__by_CT_Snow.webp"
     },
     {
-        riverName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        riverName: "Kuriftu_Awash_River",
+        location: "Great Rift Valley, Awash",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/kuriftu-resorts-awash-min (1).webp"
     },
     {
-        riverName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        riverName: "Omo River",
+        location: "Konso, South Ethiopia",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/Omo_river.webp"
     },
     {
-        riverName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        riverName: "Tekezze_River",
+        location: "Tekezze, Tigray",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/640px-Tekezze_gorge.webp"
     },
     {
-        riverName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        riverName: "Baro River",
+        location: "Gambella, Western Ethiopia",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/Baro_River.webp"
     },
     {
-        riverName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        riverName: "Gorgora Resort",
+        location: "Bahir_Dar, Amhara",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/gorgora.webp"
     }
 ];
 

@@ -22,41 +22,42 @@ ham.addEventListener('click', ()=>{
 // Array of lakes
 const lakes = [
     {
-        lakeName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        lakeName: "Tana Lake and Resort",
+        location: "Bahir_Dar, Amhara",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/Tana.303f00c.webp"
     },
     {
-        lakeName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        lakeName: "Awassa Lake",
+        location: "Awassa, South Ethiopia",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/Sunset_over_Lake_Awassa,_Ethiopia.webp"
     },
     {
-        lakeName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        lakeName: "Chamo Lake",
+        location: "Arba_Minch, South Ethiopia",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/640px-Lake_Chamo_01.webp"
     },
     {
-        lakeName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        lakeName: "Wenchi Crator Lake",
+        location: "Wenchi, Oromia",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/Wenchi_crator_lake.webp"
     },
     {
-        lakeName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        lakeName: "Lake Abaya",
+        location: "Arba_Minch, South Ethiopia",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/640px-Lake_Abaya,_Arba_Minch_(6194081486).webp"
     },
     {
-        lakeName: "Aba Nigeria",
-        location: "Aba, Nigeria",
+        lakeName: "Bishoftu kuriftu Lodge",
+        location: "Bishoftu, Oromia",
         imageUrl:
-            "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/aba-nigeria/400x250/aba-nigeria-temple-lds-273999-wallpaper.jpg"
+            "images/WaterparkBishoftu.webp"
     }
+    
 ];
 
 const lake_card = document.querySelector(".lakes");
