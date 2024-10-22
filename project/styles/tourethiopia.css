@@ -1,13 +1,13 @@
 /* Mobile view css code */
 :root {
-    --primary-color :#544B3D;    
-    --body-font: 'Roboto Slab', sans-serif; 
-    --paragraph-font: 'Roboto Slab', sans-serif; 
+    --primary-color: #544B3D;
+    --body-font: 'Roboto Slab', sans-serif;
+    --paragraph-font: 'Roboto Slab', sans-serif;
 
-    --nav-background-color:#32021F;   
-    --nav-link-color:#CEBACF;   
-    --nav-hover-link-color: #544B3D;  
-    --nav-hover-background-color: #F4EBBE; 
+    --nav-background-color: #32021F;
+    --nav-link-color: #CEBACF;
+    --nav-hover-link-color: #544B3D;
+    --nav-hover-background-color: #F4EBBE;
 }
 
 body {
@@ -15,7 +15,8 @@ body {
     max-width: 980px;
     margin: 0 auto;
 }
-header a{
+
+header a {
     text-decoration: none;
     color: var(--nav-link-color);
 }
@@ -23,7 +24,7 @@ header a{
 header {
     display: flex;
     justify-content: space-between;
-    background-color:  #32021F;
+    background-color: #32021F;
     padding: 20px 40px;
 }
 
@@ -31,15 +32,15 @@ nav:hover {
     cursor: pointer;
 }
 
-header ul li{
+header ul li {
     list-style: none;
 }
 
-nav a{
+nav a {
     font-size: 1.3rem;
 }
 
-nav a:hover{
+nav a:hover {
     color: var(--nav-hover-link-color);
 }
 
@@ -73,16 +74,16 @@ nav.show::before {
     display: block;
 }
 
-img{
+img {
     width: 100%;
 }
 
 
-main{
-margin-top: 3px;
+main {
+    margin-top: 3px;
 }
 
-#home{
+#home {
     position: relative;
 }
 
@@ -93,11 +94,12 @@ margin-top: 3px;
     color: black;
     padding: 20px;
 }
-#home h2{
+
+#home h2 {
     color: var(--nav-background-color);
 }
 
-#home button{
+#home button {
     width: 200px;
     padding: 10px 20px;
     background-color: #22211f;
@@ -109,17 +111,17 @@ margin-top: 3px;
     border-radius: 5px;
     font-size: 20px;
     font-family: var(--body-font);
-  
+
 }
 
-#home button:hover{
+#home button:hover {
     transform: scale(1.1);
     transition: all 0.2s ease;
     background-color: var(--nav-hover-background-color);
     color: var(--primary-color);
 }
 
-footer{
+footer {
     background-color: var(--nav-background-color);
     text-align: center;
     color: var(--nav-link-color);
@@ -127,20 +129,21 @@ footer{
     font-size: 20px;
 }
 
-#contents{
+#contents {
     text-align: center;
     margin: 0 20px;
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     color: #544B3D;
-    
+
 }
-#contents h2{
+
+#contents h2 {
     color: #22211f;
 }
 
-#register_content{
+#register_content {
     margin: 5px 10px;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -149,17 +152,18 @@ footer{
     color: #22211f;
 }
 
-#rating_content{
+#rating_content {
     margin: 5px 10px;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 0.5rem;
     background-color: #eee;
     color: #22211f;
+    height: 480px;
 }
 
 form {
-   border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 label {
@@ -169,7 +173,9 @@ label {
 }
 
 input[type="text"],
-input[type="email"], input[type="number"], textarea {
+input[type="email"],
+input[type="number"],
+textarea {
     width: 60%;
     padding: 5px;
     box-sizing: border-box;
@@ -181,6 +187,7 @@ input[type="email"], input[type="number"], textarea {
 input[type="radio"] {
     margin-left: 20px;
 }
+
 input[type="checkbox"] {
     width: 18px;
     height: 18px;
@@ -200,11 +207,11 @@ form button {
     display: block;
     width: 60%;
     margin-bottom: 20px;
-  
+
 }
 
 
-form button:hover{
+form button:hover {
     transform: scale(1.1);
     transition: all 0.2s ease;
     background-color: rgb(1, 1, 54);
@@ -215,43 +222,45 @@ form button:hover{
 
 @media screen and (min-width: 800px) {
 
-    header{
+    header {
         display: flex;
         justify-content: space-between;
-        
+
     }
 
-    nav ul{
+    nav ul {
         display: flex;
         justify-content: space-between;
         padding-top: 10px;
     }
 
-    nav::before{
+    nav::before {
         display: none;
     }
 
-    nav ul li{
+    nav ul li {
         display: block;
         padding: 5px 20px;
-        
+
     }
-    #contents section{
+
+    #contents section {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
+
     }
-    #contents section div{
+
+    #contents section div {
         padding: 10px;
     }
 
-    #register_content{
+    #register_content {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
 
-    form{
+    form {
         border-bottom: none;
     }
-   
+
 }
