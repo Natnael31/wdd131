@@ -118,7 +118,15 @@ main {
     transform: scale(1.1);
     transition: all 0.2s ease;
     background-color: var(--nav-hover-background-color);
-    color: var(--primary-color);
+}
+
+#register a{
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+#register a:hover{
+    color: var(--nav-hover-link-color);
 }
 
 footer {
