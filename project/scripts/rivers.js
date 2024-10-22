@@ -44,7 +44,7 @@ const rivers = [
     {
         riverName: "Baro River",
         location: "Gambella, Western Ethiopia",
-        imageUrl: "images/Baro_River.webp"
+        imageUrl: "images/Baro_river.webp"
     },
     {
         riverName: "Gorgora Resort",
