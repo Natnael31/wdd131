@@ -24,38 +24,32 @@ const lakes = [
     {
         lakeName: "Tana Lake and Resort",
         location: "Bahir_Dar, Amhara",
-        imageUrl:
-            "images/Tana.303f00c.webp"
+        imageUrl: "images/Tana.303f00c.webp"
     },
     {
         lakeName: "Awassa Lake",
         location: "Awassa, South Ethiopia",
-        imageUrl:
-            "images/Sunset_over_Lake_Awassa,_Ethiopia.webp"
+        imageUrl: "images/Sunset_over_Lake_Awassa,_Ethiopia.webp"
     },
     {
         lakeName: "Chamo Lake",
         location: "Arba_Minch, South Ethiopia",
-        imageUrl:
-            "images/640px-Lake_Chamo_01.webp"
+        imageUrl: "images/640px-Lake_Chamo_01.webp"
     },
     {
         lakeName: "Wenchi Crator Lake",
         location: "Wenchi, Oromia",
-        imageUrl:
-            "images/Wenchi_crator_lake.webp"
+        imageUrl: "images/Wenchi_crator_lake.webp"
     },
     {
         lakeName: "Lake Abaya",
         location: "Arba_Minch, South Ethiopia",
-        imageUrl:
-            "images/640px-Lake_Abaya,_Arba_Minch_(6194081486).webp"
+        imageUrl: "images/640px-Lake_Abaya,_Arba_Minch_(6194081486).webp"
     },
     {
         lakeName: "Bishoftu kuriftu Lodge",
         location: "Bishoftu, Oromia",
-        imageUrl:
-            "images/WaterparkBishoftu.webp"
+        imageUrl: "images/WaterparkBishoftu.webp"
     }
     
 ];

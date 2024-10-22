@@ -24,38 +24,32 @@ const landmarks = [
     {
         landmarkName: "Axum Obelisk",
         location: "Axum, Tigray",
-        imageUrl:
-            "images/640px-Aksum_obelisk.webp"
+        imageUrl: "images/640px-Aksum_obelisk.webp"
     },
     {
         landmarkName: "Lalibela Church",
         location: "Lalibela, Wello",
-        imageUrl:
-            "images/640px-Bet_Giyorgis_church_Lalibela_01_11zon.webp"
+        imageUrl: "images/640px-Bet_Giyorgis_church_Lalibela_01_11zon.webp"
     },
     {
         landmarkName: "St. Mary of Zion Church ",
         location: "Axum, Tigray",
-        imageUrl:
-            "images/Axum_Tsion.webp"
+        imageUrl: "images/Axum_Tsion.webp"
     },
     {
         landmarkName: "Fasilides Palace",
         location: "Gondar, Amhara",
-        imageUrl:
-            "images/640px-Fasilides_Palace_01.webp"
+        imageUrl: "images/640px-Fasilides_Palace_01.webp"
     },
     {
         landmarkName: "Erta Ale",
         location: "Danakil Depression, Afar",
-        imageUrl:
-            "images/640px-Erta_Ale.webp"
+        imageUrl: "images/640px-Erta_Ale.webp"
     },
     {
         landmarkName: "Simien Mountains",
         location: "Gondar, Amhara",
-        imageUrl:
-            "images/640px-GeladaTroopSimienMountains.webp"
+        imageUrl: "images/640px-GeladaTroopSimienMountains.webp"
     }
 ];
 

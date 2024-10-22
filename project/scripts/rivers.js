@@ -24,38 +24,32 @@ const rivers = [
     {
         riverName: "Blue Nile River",
         location: "Bahir_Dar, Ethiopia",
-        imageUrl:
-            "images/640px-Blue_Nile_Falls-03__by_CT_Snow.webp"
+        imageUrl: "images/640px-Blue_Nile_Falls-03__by_CT_Snow.webp"
     },
     {
         riverName: "Kuriftu_Awash_River",
         location: "Great Rift Valley, Awash",
-        imageUrl:
-            "images/kuriftu-resorts-awash-min (1).webp"
+        imageUrl: "images/kuriftu-resorts-awash-min (1).webp"
     },
     {
         riverName: "Omo River",
         location: "Konso, South Ethiopia",
-        imageUrl:
-            "images/Omo_river.webp"
+        imageUrl: "images/Omo_river.webp"
     },
     {
         riverName: "Tekezze_River",
         location: "Tekezze, Tigray",
-        imageUrl:
-            "images/640px-Tekezze_gorge.webp"
+        imageUrl: "images/640px-Tekezze_gorge.webp"
     },
     {
         riverName: "Baro River",
         location: "Gambella, Western Ethiopia",
-        imageUrl:
-            "images/Baro_River.webp"
+        imageUrl: "images/Baro_River.webp"
     },
     {
         riverName: "Gorgora Resort",
         location: "Bahir_Dar, Amhara",
-        imageUrl:
-            "images/gorgora.webp"
+        imageUrl: "images/gorgora.webp"
     }
 ];
 
