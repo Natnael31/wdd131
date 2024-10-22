@@ -40,22 +40,32 @@ if (data != null) {
     // console.log(totalLandmarksSelected);
     // console.log(totalRiversSelected);
 
-    function assignRatings(num1, num2, num3) {
-        let landCard = document.createElement("div");
-        landCard.innerHTML = `<h2>LandMarks selcted: ${totalLandmarksSelected}</h2>`
+    function assignRatings() {
+        const value1 = { label: "Landmarks Selected", value: totalLandmarksSelected };
+        const value2 = { label: "Lakes Selected", value: totalLakesSelected };
+        const value3 = { label: "Rivers Selected", value: totalRiversSelected };
 
-        let lakeCard = document.createElement("div");
-        lakeCard.innerHTML = `<h2>Lakes selcted: ${totalLakesSelected}</h2>`
+        let values = [value1, value2, value3];
 
-        let riverCard = document.createElement("div");
-        riverCard.innerHTML = `<h2>Rivers selcted: ${totalRiversSelected}</h2>`
+        values.sort((a, b) => b.value - a.value);
 
-        ratings.append(landCard, lakeCard, riverCard)
+        const first = values[0];
+        const second = values[1];
+        const last = values[2];
+
+        if (first.value != 0 || second.value != 0 || last.value != 0) {
+            let ratingCard = document.createElement("div");
+            ratingCard.innerHTML = `<h2>${first.label}: ${first.value} ⭐⭐⭐⭐⭐</h2><br/>
+                              <h2>${second.label}: ${second.value} ⭐⭐⭐⭐</h2><br/>
+                              <h2>${last.label}: ${last.value} ⭐⭐⭐</h2><br/>`
+            ratings.append(ratingCard)
+        }
     }
 
     assignRatings();
-
 }
+
+
 
 
 
