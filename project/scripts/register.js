@@ -53,6 +53,7 @@ let register = (e) => {
 
     localStorage.setItem('dataArray', JSON.stringify(storeData));
     // localStorage.removeItem('dataArray');
+    alert("Thank you, you have registered successfully!");
 }
 
 
